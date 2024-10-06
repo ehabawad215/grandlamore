@@ -1,0 +1,62 @@
+body {
+background-image: url(css/img/ممم.jpg!f305cw);  
+background-size: cover;
+  margin: 0;
+    padding: 0;
+}
+
+.containe {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    /*background-color: #fff;*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.w { margin-right: 570px;
+    border-radius: 5px;
+}
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    color: #555;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+}
+
+.qr-code {
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 50px; /* حدده حسب حاجة */
+    height: auto;
+}

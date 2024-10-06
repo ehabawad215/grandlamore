@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+background-image: url(css/img/ممم.jpg!f305cw);
+background-size: cover;
+}
+
+
+
+.gall {
+    padding: 20px;
+}
+
+.gall-top, .gallery-bottom {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gall-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.gall-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px 8px 0 0;
+}
+
+.gall-item-info {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+}
+
+.gall-item-info h3 {
+    margin-top: 0;
+}
+
+.gall-item-info p {
+    margin-bottom: 0;
+}
+
+.gall-item:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-out;
+}
+
+
+
+.ss {
+    margin-top: 20px;
+}
+
+.l {
+    margin-top: 20px;
+}
+.w { margin-right: 570px;
+    border-radius: 5px;
+}
